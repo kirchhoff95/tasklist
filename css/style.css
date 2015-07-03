@@ -1,0 +1,83 @@
+body{
+	background: #BFBCBB;
+}
+
+.task_list{
+	background: #000000;
+    padding: 5px 20px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#heading {
+    margin: 0px -20px 0 -20px;
+    text-align: center;
+    background: #5C5C5C;
+    font: bold 50px Arial, sans-serif;
+    position: relative;
+}
+
+#enter_task {
+	margin: 0px -20px 0 -20px;
+    text-align: center;
+    background: #DFE1E0;
+    position: relative;
+}
+
+.task{
+	margin: 0px -20px 0 -20px;
+    text-align: center;
+    background: #D2C3F9;
+    position: relative;
+	border-radius: 7px 7px 7px 7px;
+	margin-bottom: 0.3em;
+}
+
+#counter{
+	margin-left: 1em;
+	text-align: left;
+}
+
+#panel_row{
+	margin: 0px -20px 0 -20px;
+    text-align: center;
+    background: #F49F9F;
+    position: relative;
+	border-radius: 5px 5px 0px 0px;
+	margin-bottom: 0.3em;
+}
+
+#task_div{
+	margin-top: -0.5em;
+}
+
+#frame{
+	border: 1px solid black;
+}
+
+#submit_button{
+	color: white;
+    border-radius: 4px;
+	background: #3E642D;
+	margin-left: 0.5em;
+}
+
+#delete_button{
+	color: white;
+    border-radius: 4px;
+	background: #480307;
+}
+
+#del_row{
+	text-align: left;
+}
+
+#multi_chk{
+	
+	position: relative;
+}
+
+input[type="text"]::-webkit-input-placeholder{
+	text-align: center;
+	color: #DFE1E0;
+}
